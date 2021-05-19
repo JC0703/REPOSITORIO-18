@@ -1,0 +1,43 @@
+En el trabajo realizado no aparece nada en cuanto al funcionamiento (vista) del circuito ya que lo que realmente pasa es que llega un mensaje en el codigo especificamente en el 
+monitor ya que aparece el siguiente "mensaje":
+LAB07-experimento1: Usando o ESP8266
+ESP8266: executando cold reset
+ESP8266: activado
+AT
+OK
+-------------------------------------------------------
+
+AT+GMR
+
+00170901
+OK
+-------------------------------------------------------
+
+AT+UART_CUR?
+
++UART_CUR:115200,8,1,0,0
+OK
+-------------------------------------------------------
+
+AT+CWMODE_CUR?
+
++CWMODE_CUR:1
+OK
+-------------------------------------------------------
+
+AT+CWMODE_CUR=3
+
+OK
+-------------------------------------------------------
+
+AT+CWMODE_CUR?
+
++CWMODE_CUR:3
+OK
+-------------------------------------------------------
+
+AT+CWLAP
+
++CWLAP:(0,"Simulator Wifi",-55,"eb:f5:9b:36:a6",1)
+OK
+----------------------
